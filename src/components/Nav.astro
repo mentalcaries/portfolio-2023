@@ -1,9 +1,24 @@
 ---
+const navLinks = [
+  { name: 'Home', url: '/' },
+  { name: 'Work', url: '/work' },
+];
 ---
 
-<nav>
+<nav class="px-6 py-2 flex items-center justify-between">
   <a href="/" class="flex items-center">
     <img src="/assets/images/terminal-window.svg" alt="" />
     <p class="font-sans font-semibold text-xl">Devin Jaggernauth</p>
   </a>
+  <div class="w-1/6">
+    <ul class="flex justify-between">
+      {
+        navLinks.map(({ name, url }) => (
+          <li>
+            <a href={url}>{name}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </nav>
