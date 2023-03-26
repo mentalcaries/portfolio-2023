@@ -1,8 +1,14 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Nav from '../components/Nav.astro';
+import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Devin Jaggernauth" >
-	<h1 class=" text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-900">Hello world</h1>
-	<p class="font-body">This is a test of the new fonts</p>
+<Layout title="Devin Jaggernauth">
+  <Nav />
+  <h1
+    class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-900"
+  >
+    Hello world
+  </h1>
+  <p class="font-body">This is a test of the new fonts</p>
 </Layout>
