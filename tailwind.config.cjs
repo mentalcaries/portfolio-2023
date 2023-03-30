@@ -6,8 +6,18 @@ module.exports = {
       backgroundImage: {
         light: `url('/assets/backgrounds/bg-light.png')`,
         dark: `url('/assets/backgrounds/bg-dark.png')`,
+        footerLight: `url('/assets/backgrounds/bg-light-fade.png')`
+      },
+      colors: {
+        evenRed: '#b92b27',
+        evenBlue: '#1565C0',
+        celestialPink: '#C33764',
+        celestialBlue: '#1D2671',
+        digitalAqua: '#74ebd5',
+        digitalBlue: '#ACB6E5',
       },
     },
+
     fontFamily: {
       sans: ['Inter', 'Arial', 'ui-sans-serif'],
       serif: ['Quattrocento', 'Georgia'],
