@@ -2,11 +2,16 @@
 module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        light: `url('/assets/backgrounds/bg-light2.png')`,
+        dark: `url('/assets/backgrounds/bg-dark2.png')`,
+      },
+    },
     fontFamily: {
       sans: ['Inter', 'Arial', 'ui-sans-serif'],
-			serif: ['Quattrocento', 'Georgia'],
-			body: ['Hind', 'ui-sans-serif']
+      serif: ['Quattrocento', 'Georgia'],
+      body: ['Hind', 'ui-sans-serif'],
     },
   },
   plugins: [],
