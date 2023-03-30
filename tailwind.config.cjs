@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        light: `url('/assets/backgrounds/bg-light2.png')`,
-        dark: `url('/assets/backgrounds/bg-dark2.png')`,
+        light: `url('/assets/backgrounds/bg-light.png')`,
+        dark: `url('/assets/backgrounds/bg-dark.png')`,
       },
     },
     fontFamily: {
