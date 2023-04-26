@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         light: `linear-gradient(315deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%),url('/assets/backgrounds/bg-light.png')`,
-        dark: `url('/assets/backgrounds/bg-dark.png')`,
+        dark: `linear-gradient(315deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 70%),url('/assets/backgrounds/bg-dark.png')`,
         footerLight: `url('/assets/backgrounds/bg-light-fade.png')`,
       },
       colors: {
