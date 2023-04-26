@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        light: `url('/assets/backgrounds/bg-light.png')`,
+        light: `linear-gradient(315deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%),url('/assets/backgrounds/bg-light.png')`,
         dark: `url('/assets/backgrounds/bg-dark.png')`,
-        footerLight: `url('/assets/backgrounds/bg-light-fade.png')`
+        footerLight: `url('/assets/backgrounds/bg-light-fade.png')`,
       },
       colors: {
         evenRed: '#b92b27',
